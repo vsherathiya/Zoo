@@ -1,0 +1,59 @@
+# flask==2.0
+# flask_cors==4.0.0
+# requests
+# python-dotenv==1.0.0
+# openai==0.27.10
+# pandas==2.1.0
+# uvicorn>=0.23.2
+# datefinder==0.7.3
+# langchain==0.0.277
+# tiktoken==0.4.0
+# faiss-cpu==1.7.4
+
+# -e .
+
+
+
+
+
+# for NLP
+torch
+transformers
+InstructorEmbedding
+sentence-transformers
+huggingface_hub
+langchain==0.0.267
+chromadb==0.4.6
+llama-cpp-python
+protobuf==3.20.2; sys_platform != 'darwin'
+protobuf==3.20.2; sys_platform == 'darwin' and platform_machine != 'arm64'
+protobuf==3.20.3; sys_platform == 'darwin' and platform_machine == 'arm64'
+auto-gptq==0.2.2
+
+# for File Loading
+docx2txt
+pdfminer.six==20221105
+unstructured
+unstructured[pdf]
+urllib3==1.26.6
+accelerate
+bitsandbytes ; sys_platform != 'win32'
+bitsandbytes-windows ; sys_platform == 'win32'
+click
+requests
+
+# Excel File Manipulation
+openpyxl
+
+# Additional Packages
+flask_cors==4.0.0
+python-dotenv==1.0.0
+openai==0.27.10
+pandas==2.1.0
+uvicorn>=0.23.2
+datefinder==0.7.3
+langchain==0.0.267
+tiktoken==0.4.0
+faiss-cpu==1.7.4 
+
+-e .
