@@ -10,7 +10,7 @@ from src.MitraAI_API.Local_Pack.constants import (
     SOURCE_DIRECTORY,
     DEVICE_TYPE
 )
-
+from langchain.llms import CTransformers
 from langchain.document_loaders import (
     CSVLoader,
     PDFMinerLoader,
